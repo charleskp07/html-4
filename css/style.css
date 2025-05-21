@@ -1467,12 +1467,13 @@ transition: 0.3s;
 
 .plats-galerie{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
 }
 
 .cards1 {
-    width: 100px;
-    height: 220px;
+    width: 70px;
+    height: 170px;
     margin: 20px 0;
     padding: 20px;
     border-radius: 20px;
@@ -1480,7 +1481,7 @@ transition: 0.3s;
 }
 
 #i{
-    font-size: 0.9rem;
+    font-size: 0.7rem;
 }
 
 .plats-picts {
@@ -1488,7 +1489,7 @@ transition: 0.3s;
 }
 
 .plats-picts>img {
-    width: 100px;
+    width: 70px;
 }
 
 .plats-picts>img:hover {
@@ -1497,11 +1498,11 @@ transition: 0.3s;
 }
 
 .plats-picts>h2 {
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     color: #fff;
 }
 .plats-picts>p {
-    font-size: 0.4rem;
+    font-size: 0.3rem;
     color: #fff;
 }
 
@@ -1509,9 +1510,9 @@ transition: 0.3s;
     border: none;
     background: #582900;
     border-radius: 20px;
-    width: 90px;
+    width: 70px;
     height: 25px;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
 .compar-button:hover{
@@ -1529,8 +1530,8 @@ transition: 0.3s;
 }
 
 .cards2 {
-    width: 100px;
-    height: 200px;
+    width: 70px;
+    height: 170px;
     margin: 20px 0;
     padding: 20px;
     border-radius: 20px;
@@ -1539,8 +1540,8 @@ transition: 0.3s;
 }
 
 .cards2-1 {
-    width: 100px;
-    height: 200px;
+    width: 70px;
+    height: 170px;
     margin: 20px 0;
     padding: 20px;
     border-radius: 20px;
@@ -1556,7 +1557,7 @@ transition: 0.3s;
 }
 
 .plats-picts2>img {
-    width: 100px;
+    width: 70px;
 }
 
 .plats-picts2>img:hover {
@@ -1565,11 +1566,11 @@ transition: 0.3s;
 }
 
 .plats-picts2>h2 {
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     color: #000000;
 }
 .plats-picts2>p {
-    font-size: 0.4rem;
+    font-size: 0.3rem;
     color: #000000;
 }
 
